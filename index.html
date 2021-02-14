@@ -4,39 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#">
-                <img src="./images/Icon.svg" alt="Logo">
-                Leospa
-            </a>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Feature</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="navigation">
+                    <a class="logo" href="#">
+                    <img src="./images/Icon.svg" alt="Logo">
+                    Leospa
+                    </a>
+                <ul class="main-menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Feature</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <p>
-                spa & beauty center  
-            </p>
-            <h1>
-                Beauty and success
-                starts here.
-            </h1>
-            <p>
-                Together creeping heaven upon third dominion be upon won't darkness rule 
-                behold it created good saw after she'd Our set living.
-            </p>
-            <a href="#">reserve now &#8594;</a>
-            <button type="button">Watch our story</button>
+        <section class="hero">
+            <div class="container">
+                <p class="hero-pretitle">
+                    spa & beauty center  
+                </p>
+                <h1 class="hero-name">
+                    Beauty and success
+                    starts here.
+                </h1>
+                <p class="hero-title">
+                    Together creeping heaven upon third dominion be upon won't darkness rule 
+                    behold it created good saw after she'd Our set living.
+                </p>
+                    <a class="hero-button" href="#">reserve now &#8594;</a>
+                    <button class="button" type="button"><img src="./images/play.png" alt="Play"> Watch our story</button>
+            </div>
         </section>
         <section>
             <img src="./images/Icon.svg" alt="Logo">
