@@ -46,7 +46,16 @@ body {
   a {
     text-decoration: none;
   }
-  
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .section {
+    display: none;
+  }
+
   header {
     position: fixed;
     height: 95px;
@@ -297,4 +306,111 @@ font-weight: 400;
 
 .gallery-item:hover .gallery-text {
   opacity: 1;
+}
+
+.fitures{
+padding: 57px 0 134px;
+}
+
+.fitures-thumb {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fitures-title {
+  width: calc (1140 - 651);
+  padding: 0 245px;
+  font-size: 42px;
+  line-height: calc(27 / 42);
+  color: #263a41;
+  font-weight: 700;
+  font-family: "Rufina";
+  text-align: center;
+}
+
+.fitures-text {
+  width: 674px;
+  height: 43px;
+  font-size: 15px;
+  line-height: calc(27 / 15);
+  color: #888888;
+  font-weight: 300;
+  /* font-family: "Roboto"; */
+  text-align: center;
+  align-items: center;
+
+  padding: 32px 0 112px;
+}
+
+.fitures-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fitures-item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 47px;
+  border: 1px solid #e2e5ea;
+}
+
+.fitures-item:hover .item-link,
+.fitures-item:focus .item-link{
+  background: #ff817e;
+  transition: 250ms;
+ }
+
+ .fitures-item:hover,
+ .fitures-item:focus {
+  box-shadow: 0 10px 30px #e2e5ea;  
+  border-color: transparent;
+}
+
+.box {
+  overflow: hidden;
+  width: 321px;
+  height: 265px;
+}
+
+.fitures-item-title {
+  font-size: 22px;
+  line-height: calc(27 / 22);
+  color: #263a41;
+  font-weight: 700;
+  font-family: "Rufina";
+  text-align: center;
+  padding: 40px 0 24px;
+}
+
+.fitures-item-text {
+width: 292px;
+height: 72px;
+font-size: 14px;
+line-height: calc(27 / 14);
+color: #888888;
+font-weight: 300;
+/* font-family: "Roboto"; */
+text-align: center;
+}
+
+.item-link {
+
+  font-size: 13px;
+line-height: calc(27 / 13);
+color: #ffffff;
+font-weight: 500;
+font-family: "Roboto";
+text-align: center;
+
+padding: 12px 40px;
+background: #30383b;
+border-radius: 30px;
+margin-top: 40px;
+text-transform: uppercase;
 }
